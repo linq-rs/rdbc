@@ -2,6 +2,10 @@
 name = "rdbc"
 version = "0.1.0"
 edition = "2021"
+license-file = "LICENSE"
+keywords = ["futures-rs", "database", "rdbc", "email"]
+description = "Futures base Rust DataBase Connectivity (RDBC) library"
+readme = "README.md"
 
 [dependencies]
 futures = "0.3.25"
@@ -13,5 +17,4 @@ chrono = "0.4.23"
 [dev-dependencies]
 dotenv = "0.15.0"
 pretty_env_logger = "0.4.0"
-async-std = {version = "1.11.0", features = ["attributes", "default"]}
-
+async-std = { version = "1.11.0", features = ["attributes", "default"] }
